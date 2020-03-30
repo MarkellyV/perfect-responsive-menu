@@ -8,6 +8,9 @@ body {
 }
 
 @media ( max-width: 40rem ) {
+	body.noscroll{
+		overflow-y: hidden;
+	}
 	.navigation button {
 		display: block;
 		position: absolute;
